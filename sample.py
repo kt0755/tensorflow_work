@@ -1,10 +1,9 @@
 import tensorflow as tf
 
-print(tf.__version__)
-
+#print(tf.__version__)
 
 ### task 1
-#hello = tf.constant("hello world")  # making a node
+#hello = tf.constant("hello world")  # making a node ... building a graph??
 #sess = tf.Session()  # why need a session?? 
 #print(sess.run(hello))
 
@@ -17,3 +16,7 @@ print("node3:", node3)
 sess = tf.Session()
 print("session: node1, node2 ", sess.run([node1, node2]))
 print("session: node3 ", sess.run(node3))
+
+### task 3 placeholder 
+
+### taks 4 linear regression 
